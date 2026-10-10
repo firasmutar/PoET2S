@@ -1,0 +1,53 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the article below."
+title: "PoET²S simulator: discrete-event simulator for twin-trust-weighted validator selection"
+abstract: >-
+  Discrete-event simulator and per-seed outputs accompanying the revised
+  manuscript "PoET²S: Folding a Digital Twin into Validator Selection for
+  Blockchain Consensus in Peer-to-Peer Energy Trading". It implements PoET²S,
+  three twin-based design points (veto, additive, linear) and seven classical
+  baselines (PoW, PoS, PBFT, DPoS and their +Twin variants) as message-passing
+  state machines.
+authors:
+  - family-names: "Idan"
+    given-names: "Zainab S"
+  - family-names: "Alaasam"
+    given-names: "Hussein Akeel Hussein"
+  - family-names: "Neamah"
+    given-names: "Firas H."
+    email: "firas.hammoodi@almaaqal.edu.iq"
+  - family-names: "Al-Mayali"
+    given-names: "Yahya Mahdi Hadi"
+    email: "yahya.almayali@alkafeel.edu.iq"
+  - family-names: "Alrammahi"
+    given-names: "Hussein"
+version: "0.21.1"
+date-released: "2026-10-01"
+license: MIT
+# repository-code: add the public repository URL when it is published
+keywords:
+  - blockchain
+  - consensus
+  - digital twin
+  - validator selection
+  - committee integrity
+  - peer-to-peer energy trading
+  - discrete-event simulation
+preferred-citation:
+  type: article
+  title: >-
+    PoET²S: Folding a Digital Twin into Validator Selection for Blockchain
+    Consensus in Peer-to-Peer Energy Trading
+  authors:
+    - family-names: "Idan"
+      given-names: "Zainab S"
+    - family-names: "Alaasam"
+      given-names: "Hussein Akeel Hussein"
+    - family-names: "Neamah"
+      given-names: "Firas H."
+    - family-names: "Al-Mayali"
+      given-names: "Yahya Mahdi Hadi"
+    - family-names: "Alrammahi"
+      given-names: "Hussein"
+  journal: "Future Technology"
+  notes: "Revised manuscript under review; update volume, pages, year and DOI on publication."

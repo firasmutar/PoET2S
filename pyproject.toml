@@ -1,0 +1,65 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "poet2s-sim"
+version = "0.21.1"
+description = "Discrete-event simulator for PoET²S, three twin-based design points and seven classical baseline consensus protocols on a smart-grid testbed."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [
+    { name = "Zainab S Idan" }, { name = "Hussein Akeel Hussein Alaasam" }, { name = "Firas H. Neamah", email = "firas.hammoodi@almaaqal.edu.iq" }, { name = "Yahya Mahdi Hadi Al-Mayali", email = "yahya.almayali@alkafeel.edu.iq" }, { name = "Hussein Alrammahi" },
+]
+keywords = [
+    "blockchain",
+    "consensus",
+    "digital twin",
+    "smart grid",
+    "peer-to-peer energy trading",
+    "discrete-event simulation",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Scientific/Engineering :: Information Analysis",
+]
+dependencies = [
+    "numpy>=1.23",
+    "scipy>=1.10",
+]
+
+[project.optional-dependencies]
+plot = ["matplotlib>=3.6"]
+dev = [
+    "pytest>=7.0",
+    "pytest-cov>=4.0",
+    "ruff>=0.1",
+]
+
+[project.scripts]
+poet2s-run = "poet2s_sim.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra -q"
+
+[tool.ruff]
+line-length = 100
+target-version = "py39"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP"]
+ignore = ["E501"]  # line length handled by formatter
