@@ -1,0 +1,10 @@
+N,condition,latency_ms
+500,full,26.806
+500,no_crypto,26.361
+500,no_queueing,24.523
+500,no_propagation,3.813
+2000,full,27.067
+2000,no_crypto,26.617
+2000,no_queueing,25.292
+2000,no_propagation,3.841
+500,full_body,103.659

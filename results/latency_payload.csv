@@ -1,0 +1,9 @@
+proposal,proposal_bytes,scheme,latency_ms
+header_1KB,1024,PoS,20.786
+header_1KB,1024,DPoS,18.496
+header_1KB,1024,PBFT,39.718
+header_1KB,1024,PoET2S,30.358
+full_body,30256,PoS,72.653
+full_body,30256,DPoS,37.774
+full_body,30256,PBFT,293.863
+full_body,30256,PoET2S,95.848

@@ -1,0 +1,21 @@
+family,comparison,metric,n,wins,ties,mean_a,mean_b,mean_diff,ci_lo,ci_hi,p,p_holm
+seeds100,PoET2S vs RepStake,infiltration_pct,100,70,4,3.14841,4.99444,-1.84603,-2.35002,-1.37375,3.97728e-10,7.1591e-09
+seeds100,PoET2S vs RepStake,proposer_capture_pct,100,49,28,3.0,5.16667,-2.16667,-3.16667,-1.28333,2.38607e-05,0.000334049
+seeds100,PoET2S vs PoMonitor,infiltration_pct,100,98,0,3.14841,11.173,-8.0246,-8.92464,-7.16577,4.80749e-18,9.61499e-17
+seeds100,PoET2S vs PoMonitor,proposer_capture_pct,100,97,2,3.0,11.2833,-8.28333,-9.48333,-7.14958,2.79169e-17,5.30421e-16
+byzantine_safety,PoET2S vs PoMonitor @ 0.1,safety_violation_pct,30,0,30,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+byzantine_safety,PoET2S vs RepStake @ 0.1,safety_violation_pct,30,0,30,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+byzantine_safety,PoET2S vs PoMonitor @ 0.15,safety_violation_pct,30,2,28,0.0,0.111111,-0.111111,-0.277778,0.0,0.157299,0.786496
+byzantine_safety,PoET2S vs RepStake @ 0.15,safety_violation_pct,30,0,30,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+byzantine_safety,PoET2S vs PoMonitor @ 0.2,safety_violation_pct,30,4,26,0.0,0.333333,-0.333333,-0.666667,-0.0555556,0.0633178,0.506542
+byzantine_safety,PoET2S vs RepStake @ 0.2,safety_violation_pct,30,0,30,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+byzantine_safety,PoET2S vs PoMonitor @ 0.25,safety_violation_pct,30,13,17,0.0555556,4.61111,-4.55556,-8.44444,-1.61111,0.00137247,0.0137247
+byzantine_safety,PoET2S vs RepStake @ 0.25,safety_violation_pct,30,3,27,0.0555556,0.277778,-0.222222,-0.5,0.0,0.10247,0.614823
+byzantine_safety,PoET2S vs PoMonitor @ 0.3,safety_violation_pct,30,18,12,0.333333,12.3333,-12.0,-19.0556,-6.27778,0.000194042,0.00232851
+byzantine_safety,PoET2S vs RepStake @ 0.3,safety_violation_pct,30,4,26,0.333333,2.0,-1.66667,-4.61111,-0.0555556,0.0655997,0.506542
+byzantine_safety,PoET2S vs PoMonitor @ 0.35,safety_violation_pct,30,25,5,0.277778,26.7778,-26.5,-35.6667,-17.8889,1.21572e-05,0.000182358
+byzantine_safety,PoET2S vs RepStake @ 0.35,safety_violation_pct,30,12,17,0.277778,1.27778,-1.0,-1.66667,-0.444444,0.00327067,0.0294361
+byzantine_safety,PoET2S vs PoMonitor @ 0.4,safety_violation_pct,30,29,1,1.22222,42.9444,-41.7222,-51.3889,-32.3333,2.55619e-06,4.0899e-05
+byzantine_safety,PoET2S vs RepStake @ 0.4,safety_violation_pct,30,15,14,1.22222,4.44444,-3.22222,-6.33333,-1.22222,0.000816769,0.00898445
+byzantine_safety,PoET2S vs PoMonitor @ 0.45,safety_violation_pct,30,30,0,2.44444,64.4444,-62.0,-71.1111,-52.5,1.7246e-06,2.93182e-05
+byzantine_safety,PoET2S vs RepStake @ 0.45,safety_violation_pct,30,23,7,2.44444,10.6667,-8.22222,-14.0,-3.88889,2.54609e-05,0.000334049
